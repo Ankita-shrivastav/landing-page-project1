@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background-color: black;
+}
+header{
+    height:40px;
+    width:100%;
+    background-color:#FCAF02;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+ .navbar-logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+} 
+ .nav-bar ul{
+    display: flex;
+} 
+ .nav-bar ul li{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding:0 25px;
+ }
+.Intro-section{
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
+#only-section h1,p{
+    color: white;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-left: -55%;
+}
+#only-section p{
+    padding-top: 40px;
+}
+button{
+    background-color: #FCAF02;
+    color: white;
+    border:2px solid #FCAF02;
+    border-radius: 25px;
+    margin-left: 70px;
+    height: 50px;
+    width: 10%;
+    font-size: 20px;
+}
+#btn{
+    margin-top:-60px;
+}
+.Contactus-section>h1{
+    color:#FCAF02;
+    padding-top: 60px;
+    margin-left: 55px;
+}
+#contactus-detail>input{
+color: #FCAF02;
+margin-left: 55px;
+background-color: black;
+border: 2px solid #FCAF02;
+border-radius: 25px;
+width: 90%;
+height: 40px;
+padding-left: 20px;
+}
+#contactus-detail{
+padding-top: 40px;
+}
+#contactus-detail>contactus-detail2{
+    display: flex;
+    justify-content: space-around;
+}
+#contactus-detail2{
+    padding-left:55px;
+}
+#contactus-detail2>input{
+    background-color: black;
+    color: #FCAF02;
+    border: 2px solid #FCAF02;
+    border-radius: 25px;
+    width: 47%;
+    height: 40px;
+    padding-left: 20px;
+}
+#submit-btn{
+    padding-left:590px;
+    padding-top: 30px;
+}
+#submit-btn>button{
+    width:140px;
+}
+
+
+ table{
+    margin-top:40px;
+    margin-left:60px;
+    border: 2px solid #FCAF02;
+    width:93%;
+    border-collapse: collapse;
+    text-align: center;
+    height: 400px;
+}
+th{
+    border: 1px solid #FCAF02;
+    text-align:center;
+  } 
+td,th{
+    color: #FCAF02;
+    height: 40px;
+}
+ .last-child>td{
+    color:white;
+} 
+.last-child:nth-last-child(1) {
+    background-color: #FCAF02;
+}  
+  
